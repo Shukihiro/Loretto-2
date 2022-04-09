@@ -10,7 +10,7 @@ body{
   --color-sec: #745b56;
   --white: #fff;
 }
-
+/* ---------nav-------------------- */
 .nav{
   display: flex;
   justify-content: space-between;
@@ -66,6 +66,11 @@ a{
   
   color: var(--white)
 }
+
+/* ---------  fin nav-------------------- */
+
+
+/* -------------header------------------- */
 .header__logo{
   height: 70vh;
   padding: 5px 10%;
@@ -84,10 +89,7 @@ a{
 .header__dias{
   text-align: center;
 }
-  
-  /* background-color: #745b56; */
-
-
+ 
 .selector-color{
   color: var(--color-primario);
 }
@@ -97,6 +99,12 @@ a{
   font-weight: 300;
   font-size: .8rem;
 }
+/* -------------header------------------- */
+
+
+
+
+/* --------------productos encabezado---------------------------------------- */
 .productos{
   padding: 2em 5%;
 }
@@ -114,9 +122,8 @@ a{
   color: var(--color-sec);
 }
 
-/* productos */
 
-
+/* -----------cards productos ---------------- */
 .container__product{
   text-align: center;
   padding: .3em;
@@ -125,12 +132,21 @@ a{
   height: auto;
 }
 
-.group__azucar{
+.grupo__producto, .contenedor__cards{
   display: flex;
   flex-wrap: wrap;
 }
 
+.contenedor__cards, .container__title{
+  margin-top: -1em;
+}
 
+.card{
+  box-shadow: var(--box-shadow2);
+  border-radius: 1em;
+  padding: .3em;
+  width: max-content;
+}
 
 .card__title{
   font-size: .8rem;
@@ -146,12 +162,7 @@ a{
   color: var(--color-sec);
   margin-top: -.5em;
 }
-.card__azucar{
-  box-shadow: var(--box-shadow2);
-  border-radius: 1em;
-  padding: .5em;
-  width: max-content;
-}
+
 
 .group__precios{
   display: flex;
@@ -160,19 +171,21 @@ a{
 }
 
 .precio__title{
-  font-size: .6rem;
+  font-size: .5rem;
 
 }
 
 .precio__costo{
-  font-size: .6rem;
+  font-size: .5rem;
   color: var(--color-primario);
-  padding: 0 .3em;
+  padding: 0 .2em;
   
 }
 
 .precio__efectivo, .precio__mp{
   display: flex ;
   justify-content: space-between;
-  padding: 0 .7em;
+  padding: 0 .5em;
 }
+
+/* --------------fin productos---------------------------------------- */
