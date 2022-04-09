@@ -1,0 +1,176 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+  
+
+
+:root{
+  --color-primario: #d17a7b;
+  --box-shadow2: 0 .5rem 1rem rgb(236, 207, 218, 0.4);
+  --color-sec: #745b56;
+  --white: #fff;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5%;
+  box-shadow: var(--box-shadow2);
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+} 
+
+
+.nav__title{
+  color: var(--color-primario);
+  letter-spacing: 12px;
+  font-size: .8rem;
+}
+
+.nav__subtitle{
+  margin-top: -15px;
+  font-size: .6rem;
+  font-weight: 300;
+  color: var(--color-sec);
+}
+
+a{
+  text-decoration: none;
+}
+
+.nav__a{
+  padding: 10px;
+  color: var(--color-sec);
+  font-size: .9rem;
+} 
+
+.nav__a:hover{
+  background-color: var(--color-primario);
+  color: #fff;
+  border-radius: 1em;
+  transition: 1s ease-in-out;
+}
+
+.nav__a-mod{
+  border-bottom: 1px solid --color-primario;
+}
+
+.logo{
+  padding: 5px 10%;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  color: var(--white)
+}
+.header__logo{
+  height: 70vh;
+  padding: 5px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.logo__logo{
+  width: 30vh;
+  background-size: cover;
+}
+
+.header__dias{
+  text-align: center;
+}
+  
+  /* background-color: #745b56; */
+
+
+.selector-color{
+  color: var(--color-primario);
+}
+
+.header__text{
+  font-style: italic;
+  font-weight: 300;
+  font-size: .8rem;
+}
+.productos{
+  padding: 2em 5%;
+}
+.group__title{
+  color: var(--white);
+  text-align: center;
+  border-radius: 1em;
+  background-color: var(--color-primario);
+  padding: .3em;
+}
+
+.group__text{
+  font-weight: lighter;
+  text-align: center;
+  color: var(--color-sec);
+}
+
+/* productos */
+
+
+.container__product{
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: var(--box-shadow2);
+  height: auto;
+}
+
+.group__azucar{
+  display: flex;
+  
+}
+
+.card__title{
+  font-size: .8rem;
+  color: var(--white);
+  text-align: center;
+  border-radius: 1em;
+  background-color: var(--color-sec);
+}
+
+.card__description{
+  font-size: .7rem;
+  text-align: center;
+  color: var(--color-sec);
+  margin-top: -.5em;
+}
+.card__azucar{
+  box-shadow: var(--box-shadow2);
+  border-radius: 1em;
+  padding: .5em;
+  width: max-content;
+}
+
+.group__precios{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1em;
+}
+
+.precio__title{
+  font-size: .6rem;
+
+}
+
+.precio__costo{
+  font-size: .6rem;
+  color: var(--color-primario);
+  padding: 0 .3em;
+  
+}
+
+.precio__efectivo, .precio__mp{
+  display: flex ;
+  justify-content: space-between;
+  padding: 0 .7em;
+}
